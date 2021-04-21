@@ -1,0 +1,116 @@
+.hero__container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    /* background-color: #868686; */
+    background-color: #355E3B;
+}
+
+.hero__container__info__parent {
+    width: 50%;
+    min-width: 340px;
+    padding: 10px;
+}
+
+.hero__container__info {
+    min-width: 340px;
+    padding: 20px;
+    color: #C4E8BC;
+    border: 1px solid #C4E8BC;
+    position: relative;
+    visibility: hidden;
+}
+
+.hero__container__info::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #C4E8BC;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+.hero__container__info h1 {
+    font-size: 45px;
+}
+
+.hero__container__info h3 {
+    font-size: 32px;
+}
+
+.hero__container__info p {
+    font-size: 20px;
+}
+
+.hero__container__image__parent {
+    width: 50%;
+    padding: 20px;
+    min-width: 300px;
+}
+
+.hero__container__image__parent,
+.hero__container__image,
+.hero__container__info__parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__container__image {
+    width: 80%;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    visibility: hidden;
+}
+
+.hero__container__image::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #C4E8BC;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+.hero__container__image img {
+    width: 100%;
+}
+
+
+@media screen and (max-width:1000px) {
+    .hero__container__info h1 {
+        font-size: 40px;
+    }
+
+    .hero__container__info h3 {
+        font-size: 28px;
+    }
+
+    .hero__container__info p {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .hero__container__info h1 {
+        font-size: 35px;
+    }
+
+    .hero__container__info h3 {
+        font-size: 23px;
+    }
+
+    .hero__container__info p {
+        font-size: 15px;
+    }
+
+    .hero__container__info__parent {
+        margin-top: -150px;
+    }
+}

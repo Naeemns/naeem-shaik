@@ -1,0 +1,75 @@
+import React, { useEffect, useRef } from "react";
+import gsap from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
+import { data } from "../../utils/projectUtils";
+import bookmyshow from "../../utils/images/bookmyshow.JPG"
+import chatApplication from "../../utils/images/chatApplication.JPG"
+import meetup from "../../utils/images/meetup.png"
+import sudoku from "../../utils/images/sudoku.JPG"
+import "./Project.css";
+
+export const Projects = () => {
+    const images = [bookmyshow, chatApplication, sudoku, meetup];
+    const projectsContainer = useRef(null);
+
+    gsap.registerPlugin(ScrollTrigger);
+
+    ScrollTrigger.defaults({
+        toggleActions: "restart pause resume pause"
+    });
+
+    useEffect(() => {
+        const projects = gsap.utils.toArray(".projects__container .project");
+        gsap.to(projects, {
+            xPercent: -100 * (projects.length - 1),
+            ease: "none",
+            scrollTrigger: {
+                // markers: true,
+                trigger: ".projects__container",
+                pin: true,
+                start: "top top",
+                scrub: 1,
+                snap: {
+                    snapTo: 1 / (projects.length - 1),
+                    duration: { min: 0.1, max: 0.1 }
+                },
+                end: () => "+=" + (projectsContainer.current.offsetWidth)
+            }
+        });
+    }, [])
+
+    return (
+        <div className="projects__container__parent">
+            <div className="projects__container" ref={projectsContainer}>
+                {
+                    data?.map((project, index) => {
+                        return (
+                            <div key={project.heading} className={`${project.class} project`}>
+                                <div className="project__text__container__parent">
+                                    <div className="project__text__container">
+                                        <h1>{project.heading}</h1>
+                                        <div dangerouslySetInnerHTML={{ __html: project.textContent }}></div>
+                                        <div className="project__button__container">
+                                            <a href={project.githubLink} target="_blank" rel="noreferrer"><button>GitHub</button></a>
+                                            <a href={project.liveLink} target="_blank" rel="noreferrer"><button>Live Demo</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="project__image__container">
+                                    <div className="project__image__container__number">
+                                        <span>0<span>{index + 1}</span></span>
+                                    </div>
+                                    <div className="project__image__container__image">
+                                        <a href={project.liveLink} target="_blank" rel="noreferrer">
+                                            <img src={images[index]} alt={project.image} />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        )
+                    })
+                }
+            </div>
+        </div>
+    )
+}
