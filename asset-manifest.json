@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/naeem-shaik/static/css/main.44654926.chunk.css",
+    "main.css": "/naeem-shaik/static/css/main.a55845a5.chunk.css",
     "main.js": "/naeem-shaik/static/js/main.66d231da.chunk.js",
     "main.js.map": "/naeem-shaik/static/js/main.66d231da.chunk.js.map",
     "runtime-main.js": "/naeem-shaik/static/js/runtime-main.ef65bbc6.js",
@@ -8,7 +8,7 @@
     "static/js/2.61c29d0b.chunk.js": "/naeem-shaik/static/js/2.61c29d0b.chunk.js",
     "static/js/2.61c29d0b.chunk.js.map": "/naeem-shaik/static/js/2.61c29d0b.chunk.js.map",
     "index.html": "/naeem-shaik/index.html",
-    "static/css/main.44654926.chunk.css.map": "/naeem-shaik/static/css/main.44654926.chunk.css.map",
+    "static/css/main.a55845a5.chunk.css.map": "/naeem-shaik/static/css/main.a55845a5.chunk.css.map",
     "static/js/2.61c29d0b.chunk.js.LICENSE.txt": "/naeem-shaik/static/js/2.61c29d0b.chunk.js.LICENSE.txt",
     "static/media/bookmyshow.ed70cf11.JPG": "/naeem-shaik/static/media/bookmyshow.ed70cf11.JPG",
     "static/media/chatApplication.160a4830.JPG": "/naeem-shaik/static/media/chatApplication.160a4830.JPG",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.ef65bbc6.js",
     "static/js/2.61c29d0b.chunk.js",
-    "static/css/main.44654926.chunk.css",
+    "static/css/main.a55845a5.chunk.css",
     "static/js/main.66d231da.chunk.js"
   ]
 }
