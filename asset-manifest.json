@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/naeem-shaik/static/css/main.44654926.chunk.css",
+    "main.js": "/naeem-shaik/static/js/main.66d231da.chunk.js",
+    "main.js.map": "/naeem-shaik/static/js/main.66d231da.chunk.js.map",
+    "runtime-main.js": "/naeem-shaik/static/js/runtime-main.ef65bbc6.js",
+    "runtime-main.js.map": "/naeem-shaik/static/js/runtime-main.ef65bbc6.js.map",
+    "static/js/2.61c29d0b.chunk.js": "/naeem-shaik/static/js/2.61c29d0b.chunk.js",
+    "static/js/2.61c29d0b.chunk.js.map": "/naeem-shaik/static/js/2.61c29d0b.chunk.js.map",
+    "index.html": "/naeem-shaik/index.html",
+    "static/css/main.44654926.chunk.css.map": "/naeem-shaik/static/css/main.44654926.chunk.css.map",
+    "static/js/2.61c29d0b.chunk.js.LICENSE.txt": "/naeem-shaik/static/js/2.61c29d0b.chunk.js.LICENSE.txt",
+    "static/media/bookmyshow.ed70cf11.JPG": "/naeem-shaik/static/media/bookmyshow.ed70cf11.JPG",
+    "static/media/chatApplication.160a4830.JPG": "/naeem-shaik/static/media/chatApplication.160a4830.JPG",
+    "static/media/meetup.bf1288d4.png": "/naeem-shaik/static/media/meetup.bf1288d4.png",
+    "static/media/naeem.dc8798fc.jpg": "/naeem-shaik/static/media/naeem.dc8798fc.jpg",
+    "static/media/sudoku.32ccb1de.JPG": "/naeem-shaik/static/media/sudoku.32ccb1de.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef65bbc6.js",
+    "static/js/2.61c29d0b.chunk.js",
+    "static/css/main.44654926.chunk.css",
+    "static/js/main.66d231da.chunk.js"
+  ]
+}
