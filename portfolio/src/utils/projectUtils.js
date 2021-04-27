@@ -1,6 +1,6 @@
 export const data = [{
     class: "projects__container__bookmyshow",
-    liveLink: "https://naeemns.github.io/sudoku-solver/",
+    liveLink: "https://github.com/arshadalitalwar/bookmyshow",
     githubLink: "https://github.com/arshadalitalwar/bookmyshow",
     image: "bookmyshow",
     textContent: `<p>BookMyShow! The One Stop Destination For All Entertainment Lovers.</p>
@@ -8,8 +8,8 @@ export const data = [{
     heading: "BookMyShow Clone"
 }, {
     class: "projects__container__chatApplication",
-    liveLink: "https://naeemns.github.io/sudoku-solver/",
-    githubLink: "https://github.com/arshadalitalwar/bookmyshow",
+    liveLink: "https://chat-karo-web-application.netlify.app/",
+    githubLink: "https://github.com/Naeemns/chat-karo",
     image: "chatApplication",
     textContent: `<p>Take a break and have a chat with your loved ones.</p>
     <p> A real - time chat application developed using
@@ -19,7 +19,7 @@ export const data = [{
 }, {
     class: "projects__container__sudoku",
     liveLink: "https://naeemns.github.io/sudoku-solver/",
-    githubLink: "https://github.com/arshadalitalwar/bookmyshow",
+    githubLink: "https://github.com/Naeemns/sudoku-solver",
     image: "sudoku",
     textContent: `<p>Want to solve the sudoku? Go and add inputs and click solve. See the magic happening. </p>
     <p> It designed using HTML, CSS, JavaScript, and backtracking
@@ -27,7 +27,7 @@ export const data = [{
     heading: "Sudoku Solver"
 }, {
     class: "projects__container__meetup",
-    liveLink: "https://naeemns.github.io/sudoku-solver/",
+    liveLink: "https://event-finder-echo.netlify.app/",
     githubLink: "https://github.com/ranjithkumark8/echo_meetup",
     image: "meetup",
     textContent: `<p>Meet the people with same interests online and in person.</p>
