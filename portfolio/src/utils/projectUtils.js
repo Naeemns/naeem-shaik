@@ -1,7 +1,7 @@
 export const data = [{
     class: "projects__container__bookmyshow",
-    liveLink: "https://github.com/arshadalitalwar/bookmyshow",
-    githubLink: "https://github.com/arshadalitalwar/bookmyshow",
+    liveLink: "https://github.com/Naeemns/bookmyshow",
+    githubLink: "https://github.com/Naeemns/bookmyshow",
     image: "bookmyshow",
     textContent: `<p>BookMyShow! The One Stop Destination For All Entertainment Lovers.</p>
     <p>A website where you can book movie tickets for different movies developed by using Reactjs in the frontend, Express.js and MongoDB in the backend</p>`,
@@ -28,7 +28,7 @@ export const data = [{
 }, {
     class: "projects__container__meetup",
     liveLink: "https://event-finder-echo.netlify.app/",
-    githubLink: "https://github.com/ranjithkumark8/echo_meetup",
+    githubLink: "https://github.com/Naeemns/echo_meetup",
     image: "meetup",
     textContent: `<p>Meet the people with same interests online and in person.</p>
     <p>A clone of meetup website, where you can origanize or attend events of your interest developed by using Reactjs in the frontend and the API deployed on Heroku.</p>`,
