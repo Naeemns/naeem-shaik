@@ -1,12 +1,17 @@
 .about__container {
     width: 100%;
     /* height: 80vh; */
-    background-color: #A8A8A8;
+    background-color: #1B4F3D;
+    /* background-color: #435e55ff; */
+    /* background-color: #A8A8A8; */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap-reverse;
     overflow: hidden;
+    color: #E8E8E8;
+    /* color: #76c4a9; */
+    border-top: 1px solid #e8e8e862;
 }
 
 .about__container__text,
@@ -30,11 +35,15 @@
 .about__container__text button {
     padding: 10px 12px;
     border: none;
-    background: black;
+    /* background: #e2e2e2; */
     margin: 8px;
     cursor: pointer;
-    font-size: 13px;
-    color: #e2e2e2;
+    font-size: 15px;
+    font-weight: 600;
+    /* color: #435e55ff; */
+    background-color: #1B4F3D;
+    color: #E8E8E8;
+    border: 2px solid #84CFB5;
     transition: all 0.2s ease-out;
 }
 
@@ -51,11 +60,13 @@
 
 /* Proficiencies */
 .proficiencies {
-    background-color: #A8A8A8;
+    background-color: #1B4F3D;
+    /* background-color: #A8A8A8; */
     padding: 20px;
     width: 100%;
     padding-bottom: 50px;
     overflow: hidden;
+    color: #E8E8E8;
 }
 
 .proficiencies>h1 {
@@ -82,17 +93,17 @@
 .proficiencies__icons__container .proficiency__icon {
     font-size: 100px;
     transition: all 0.2s ease-out;
-    cursor: pointer;
+    /* cursor: pointer; */
     height: 120px;
 }
 
-.mongodb {
+/* .mongodb {
     animation: mongoAnimation 1s infinite alternate ease-in-out;
 }
 
 .react {
     animation: react 5s infinite linear;
-}
+} */
 
 
 
@@ -130,8 +141,13 @@
 
 
 .about__container__text button:hover {
-    background-color: #e2e2e2;
-    color: black;
+    /* background-color: #435e55ff;
+    color: #e2e2e2;
+    
+    border: 1px solid #e2e2e2; */
+    /* border: 2px solid #E8E8E8; */
+    color: #1B4F3D;
+    background-color: #84CFB5;
 }
 
 /* .proficiencies__icons__container .proficiency__icon:hover {

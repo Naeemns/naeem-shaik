@@ -31,6 +31,6 @@ export const data = [{
     githubLink: "https://github.com/Naeemns/echo_meetup",
     image: "meetup",
     textContent: `<p>Meet the people with same interests online and in person.</p>
-    <p>A clone of meetup website, where you can origanize or attend events of your interest developed by using Reactjs in the frontend and the API deployed on Heroku.</p>`,
+    <p>A clone of meetup website, where you can origanize or attend events of your interest developed by using Reactjs.</p>`,
     heading: "Meetup Clone"
 }]
