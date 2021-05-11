@@ -12,6 +12,7 @@
     justify-content: center;
     flex-wrap: wrap-reverse;
     overflow: hidden;
+    position: relative;
 }
 
 .projects__container .project__text__container__parent {
@@ -24,7 +25,7 @@
 .project__text__container {
     min-width: 100%;
     position: absolute;
-    height: 300px;
+    /* height: 300px; */
     width: 450px;
     top: -300px;
     z-index: 100;
@@ -78,6 +79,79 @@
 .project__image__container__image img {
     width: 100%;
     min-width: 310px;
+}
+
+/* Book my show */
+.project__container__scroll__arrow {
+    position: absolute;
+    right: 5%;
+    margin-left: -30px;
+    bottom: 50px;
+    transform: rotateZ(270deg);
+}
+
+.Project__container__arrows {
+    width: 60px;
+    height: 72px;
+}
+
+.Project__container__arrows path {
+    stroke: #ffffff91;
+    fill: transparent;
+    stroke-width: 5px;
+    animation: arrow 2s infinite;
+    -webkit-animation: arrow 2s infinite;
+}
+
+@keyframes arrow {
+    0% {
+        opacity: 0
+    }
+
+    40% {
+        opacity: 1
+    }
+
+    80% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes arrow {
+    0% {
+        opacity: 0
+    }
+
+    40% {
+        opacity: 1
+    }
+
+    80% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+.Project__container__arrows path.a1 {
+    animation-delay: -1s;
+    -webkit-animation-delay: -1s;
+}
+
+.Project__container__arrows path.a2 {
+    animation-delay: -0.5s;
+    -webkit-animation-delay: -0.5s;
+}
+
+.Project__container__arrows path.a3 {
+    animation-delay: 0s;
+    -webkit-animation-delay: 0s;
 }
 
 .projects__container__bookmyshow {
@@ -177,6 +251,13 @@
     background-color: white;
 }
 
+.projects__container__meetup .project__container__scroll__arrow {
+    transform: rotateZ(0deg);
+    bottom: 20px;
+    /* right: ; */
+    left: 50%;
+}
+
 
 
 
@@ -205,7 +286,7 @@
 @media screen and (max-width:1000px) {
     .project__text__container {
         min-width: 100%;
-        height: 320px;
+        /* height: 320px; */
         width: 350px;
         top: -310px;
         padding: 20px;
@@ -238,7 +319,7 @@
 @media screen and (max-width:800px) {
     .project__text__container {
         min-width: 100%;
-        height: 280px;
+        /* height: 280px; */
         width: 300px;
         top: -280px;
         padding: 15px;
@@ -291,7 +372,7 @@
     .project__text__container {
         width: 100%;
         position: initial;
-        height: 205px;
+        /* height: 205px; */
         max-width: 500px;
         margin: 0;
     }

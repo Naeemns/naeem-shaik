@@ -1,6 +1,7 @@
 .stats__contact {
-    color: black;
-    background-color: #A8A8A8;
+    color: #E8E8E8;
+    /* background-color: #A8A8A8; */
+    background-color: #1B4F3D;
     min-height: 100vh;
     position: relative;
     display: flex;
@@ -22,11 +23,11 @@
 }
 
 .github span {
-    color: black;
+    color: #E8E8E8;
 }
 
 .github .ContributionCalendar-label {
-    fill: black;
+    fill: #E8E8E8;
 }
 
 .github>div {
@@ -44,7 +45,7 @@
     font-size: 10px;
     text-align: center;
     margin: 30px 10px 20px;
-    color: black;
+    color: #E8E8E8;
 }
 
 
@@ -56,7 +57,7 @@
     justify-content: center;
     padding: 10px;
     margin-top: 10px;
-    border-top: 2px solid black;
+    border-top: 2px solid #e8e8e862;
 }
 
 .contact__container__details {
@@ -89,7 +90,10 @@
 }
 
 .contact__container__social a {
-    color: black;
+    display: inline-block;
+    padding: 0px 5px;
+    margin: 5px;
+    color: #E8E8E8;
 }
 
 
@@ -97,7 +101,7 @@
 .contact__container__details__icon:hover,
 .contact__container__social a:hover {
     transition: all 0.2s ease;
-    color: #e2e2e2;
+    color: #84CFB5;
 }
 
 
