@@ -1,6 +1,6 @@
 export const data = [{
     class: "projects__container__bookmyshow",
-    liveLink: "https://github.com/Naeemns/bookmyshow",
+    liveLink: "https://bookmyshow-clone-masaischool.netlify.app/",
     githubLink: "https://github.com/Naeemns/bookmyshow",
     image: "bookmyshow",
     textContent: `<p>BookMyShow! The One Stop Destination For All Entertainment Lovers.</p>

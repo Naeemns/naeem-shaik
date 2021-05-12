@@ -65,14 +65,19 @@ export const Projects = () => {
                                         </a>
                                     </div>
                                 </div>
-                                <div className="project__container__scroll__arrow">
-                                    {/* Reference from https://codepen.io/postor/pen/mskxI */}
-                                    <svg className="Project__container__arrows">
-                                        <path className="a1" d="M0 0 L25 25 L50 0"></path>
-                                        <path className="a2" d="M0 20 L25 47 L50 20"></path>
-                                        <path className="a3" d="M0 40 L25 67 L50 40"></path>
-                                    </svg>
-                                </div>
+                                {
+                                    index === data.length - 1 ? <div className="project__container__scroll__arrow">
+                                        {/* Reference from https://codepen.io/postor/pen/mskxI */}
+                                        <svg className="Project__container__arrows">
+                                            <path className="a1" d="M0 0 L25 25 L50 0"></path>
+                                            <path className="a2" d="M0 20 L25 47 L50 20"></path>
+                                            <path className="a3" d="M0 40 L25 67 L50 40"></path>
+                                        </svg>
+                                    </div>
+                                        : <div className="project__container__scroll__down">
+                                            <p>Scroll to discover more work!!</p>
+                                        </div>
+                                }
                             </div>
                         )
                     })

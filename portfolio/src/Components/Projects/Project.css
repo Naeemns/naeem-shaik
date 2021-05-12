@@ -81,7 +81,6 @@
     min-width: 310px;
 }
 
-/* Book my show */
 .project__container__scroll__arrow {
     position: absolute;
     right: 5%;
@@ -154,6 +153,21 @@
     -webkit-animation-delay: 0s;
 }
 
+.project__container__scroll__down {
+    position: absolute;
+    left: 50%;
+    /* margin-left: -30px; */
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff91;
+    transform: translateX(-50%);
+    font-size: 15px;
+}
+
+
+/* Book my show */
 .projects__container__bookmyshow {
     background-color: #C4242B;
 }
